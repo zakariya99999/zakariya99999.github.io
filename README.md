@@ -1,5 +1,5 @@
-# zakariya99999.github.io
-Welcome, This is a tutorial on how to make a free eaglercraft server without ANY PC or stupid credits, FUll WSS SUPPORT
+# zaka
+Welcome, This is a tutorial on how to make a free eag server without ANY PC or stupid credits, FUll WSS SUPPORT
 -STEP 1, go to digitalplat.org and register a .DPDNS.ORG SUBDOMAIN
 -WHERE ITS  says NAMESEVERS PAUSE AND OPEN A NEW TAB FOR A SECOND
 
