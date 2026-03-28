@@ -43,6 +43,7 @@ Welcome, This is a tutorial on how to make a free eag server without ANY PC or s
 
 -SET TLS MODE TO "FLEXIBLE"
 
+TURN ON ORANGE CLOUD (Proxied, If you dont see it try and clik the grey cloud for google it)
 
 -INSTALL EAGLERCRAFTXSERVER FROM HERE COPY PATE THIS LINK FOR IT  -
 https://github.com/lax1dude/eaglerxserver/releases/download/v1.0.8/EaglerXServer.jar
