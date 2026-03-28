@@ -1,1 +1,30 @@
 # zakariya99999.github.io
+Welcome, This is a tutorial on how to make a free eaglercraft server without ANY PC or stupid credits, FUll WSS SUPPORT
+STEP 1, go to digitalplat.org and register a .DPDNS.ORG SUBDOMAIN
+WHERE ITS  says NAMESEVERS PAUSE AND OPEN A NEW TAB FOR A SECOND
+GO TO DASH.CLOUDFLARE.COM 
+MAKE A ACCOUNT
+TYPE YOUR DOMAIN AND ADD IT
+ADD a subdomain record for mc (so like mc like that)
+WHEN IT ASKS FOR A/AAAA RECORD PAUSE AGAIN
+GO TO MAGMANODE.com (OR ANY OTHER FREE HOST)
+MAKE A PAPER 1.8.8 OR 1.12.2 SERVER
+GET THE IP (minus the port)
+ADD IT TO THE A RECORD (should start wth like 5.9 or 91.x FOR THE IP)
+SAVE IT,
+GO AND MAKE A CLOUDFLARE APPLICATION RULE (you can google how to do this if you dont know how)
+MAKE A RULE TO REWRITE TO (servers port liek 25759 for example)
+SET TLS MODE TO "FLEXIBLE"
+INSTALL EAGLERCRAFTXSERVER FROM HERE COPY PATE THIS LINK FOR IT  https://github.com/lax1dude/eaglerxserver/releases/download/v1.0.8/EaglerXServer.jar
+DOWNLOAD PROTOCOLLIB 4.8.0 FROM HERE
+https://github.com/dmulloy2/ProtocolLib/releases/download/4.8.0/ProtocolLib.jar
+COPY PASTE THE LINK FOR BOTH OF THESE AND DONWLOAD THEM THEN UPLAOD THEM INTO YOUR SERVERS PLUGIN FOLDER IN THE FILE MANAGER
+
+AND IF IT WORKED GO TO EAGLERCRAFT AND TYPE wss://mc.YOURDOMAINNAME.dpdns.org
+IT SHOULD WORK FINE WITH WSS AND ALL SITES
+IF YOU KEEP THE SERVER ON FOR TOO LONG MAGAMNDOE MAY CHANGE THE IP,
+IF THIS HAPPENS JUST CHANGE YOUR A RECORD TO THE NEW IP (GOOGLE HOW TO DO THIS IF YOUR NOT SURE)
+IT SHOULD WORK FINE
+
+Credits, ME (@zaka706 on discord, ZakaPlaysMinecraft on YT and Fungi110 on Reddit)
+THANK YOU SO MUCH, I HOPED THIS HELPED YOU 
