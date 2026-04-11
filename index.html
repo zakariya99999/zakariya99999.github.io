@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +70,9 @@
         .alt-ip { color: #aaa; font-size: 10px; margin-top: 2px; display: block; }
         .path-label { font-size: 10px; color: #888; display: block; margin-top: 2px; font-family: monospace; }
         
+        .mod-promo { margin-top: 15px; font-size: 12px; color: #ff9999; border-top: 1px solid #444; padding-top: 10px; text-align: center; }
+        .mod-promo a { color: #fff; text-decoration: underline; }
+
         .footer { margin-top: 50px; text-align: center; z-index: 2; padding-bottom: 20px; }
         .author { font-size: 14px; color: rgba(255,255,255,0.7); letter-spacing: 1px; margin-bottom: 5px; }
         .credits { font-size: 11px; color: rgba(255,255,255,0.4); font-style: italic; }
@@ -89,18 +93,17 @@
                 <option value="TuffBeta-JS" data-path="tuffbeta_js.html">TuffBeta JS (1.21)</option>
                 <option value="TuffBeta-WASM" data-path="tuffbeta_wasm.html">TuffBeta WASM</option>
             </optgroup>
+            <optgroup label="Modpacks & Forge">
+                <option value="1.6.4" data-path="Modpack1.6.4.html">Eagler Modpack 1.6.4</option>
+                <option value="EaglerForge" data-path="eaglerforge_1.8.8.html">EaglerForge 1.8.8</option>
+            </optgroup>
             <optgroup label="Core Versions">
                 <option value="1.12.2" data-path="1.12.2.html">Eaglercraft 1.12.2</option>
-                <option value="1.11.2" data-path="1.11.2.html">Eaglercraft 1.11.2 (Glitchy)</option>
+                <option value="1.11.2" data-path="1.11.2.html">Eaglercraft 1.11.2</option>
                 <option value="1.8.8" data-path="1.8.8.html">EaglercraftX 1.8.8</option>
                 <option value="1.7.10" data-path="1.7.10.html">Eaglercraft 1.7.10</option>
                 <option value="1.5.2" data-path="1.5.2.html">Eaglercraft 1.5.2</option>
                 <option value="1.4.6" data-path="1.4.6.html">Eaglercraft 1.4.6</option>
-            </optgroup>
-            <optgroup label="Popular Clients">
-                <option value="Resent" data-path="resent.html">Resent Client</option>
-                <option value="Shadow" data-path="shadow.html">Shadow Client</option>
-                <option value="Precision" data-path="precision.html">Precision Client</option>
             </optgroup>
         </select>
         
@@ -109,14 +112,11 @@
         
         <div class="path-scroll">
             <span class="path-label"><strong>File Directory:</strong></span>
+            <span class="path-label">./Modpack1.6.4.html</span>
+            <span class="path-label">./eaglerforge_1.8.8.html</span>
             <span class="path-label">./tuffbeta_js.html</span>
-            <span class="path-label">./tuffbeta_wasm.html</span>
             <span class="path-label">./1.12.2.html</span>
             <span class="path-label">./1.8.8.html</span>
-            <span class="path-label">./1.7.10.html</span>
-            <span class="path-label">./1.5.2.html</span>
-            <span class="path-label">./1.4.6.html</span>
-            <span class="path-label">./resent.html</span>
         </div>
     </div>
 
@@ -130,7 +130,6 @@
         </div>
         <div class="server-item"><strong>VoidsentMC</strong> <code>wss://mc.voidsent.net</code></div>
         <div class="server-item"><strong>DSSX</strong> <code>wss://dssx.us</code></div>
-        <div class="server-item"><strong>ArchMC</strong> <code>wss://arch.mc</code></div>
     </div>
 
     <!-- MARKETPLACE SECTION -->
@@ -141,28 +140,30 @@
                 <strong>1.8 Full Dark GUI</strong>
                 <button class="btn btn-market" onclick="triggerDownload('darkgui.zip', '1.8-FullDarkGui.zip')">ADD</button>
             </div>
-            <span class="path-label">Path: ./darkgui.zip</span>
         </div>
         <div style="margin-bottom: 12px;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <strong>Cheerleader 16x</strong>
                 <button class="btn btn-market" onclick="triggerDownload('cheerleader.zip', 'Cheerleader_16x.zip')">ADD</button>
             </div>
-            <span class="path-label">Path: ./cheerleader.zip</span>
         </div>
         <div>
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <strong>X-Ray Pack</strong>
                 <button class="btn btn-market" onclick="triggerDownload('x-ray.zip', 'XRay_Ultimate.zip')">ADD</button>
             </div>
-            <span class="path-label">Path: ./x-ray.zip</span>
+        </div>
+
+        <div class="mod-promo">
+            For Eagler mods go to <br> 
+            <a href="https://eaglerrinth.github.io" target="_blank">EaglerRinth</a>
         </div>
     </div>
 </div>
 
 <div class="footer">
     <div class="author">made by zaka13</div>
-    <div class="credits">Credits: Peyton, Lax1dude, and others!</div>
+    <div class="credits">Credits: Peyton, Lax1dude, and others who made this possible!</div>
 </div>
 
 <script>
@@ -204,10 +205,3 @@
 
 </body>
 </html>
-
-        
-
-
-
-
-    
