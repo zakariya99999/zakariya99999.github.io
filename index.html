@@ -69,7 +69,10 @@
         .alt-ip { color: #aaa; font-size: 10px; margin-top: 2px; display: block; }
         .path-label { font-size: 10px; color: #888; display: block; margin-top: 2px; font-family: monospace; }
         
-        .footer { margin-top: 50px; font-size: 14px; color: rgba(255,255,255,0.5); letter-spacing: 1px; z-index: 2; padding-bottom: 20px; }
+        .footer { margin-top: 50px; text-align: center; z-index: 2; padding-bottom: 20px; }
+        .author { font-size: 14px; color: rgba(255,255,255,0.7); letter-spacing: 1px; margin-bottom: 5px; }
+        .credits { font-size: 11px; color: rgba(255,255,255,0.4); font-style: italic; }
+        
         .path-scroll { max-height: 140px; overflow-y: auto; margin-top: 10px; border-top: 1px solid #444; padding-top: 5px; }
     </style>
 </head>
@@ -97,6 +100,7 @@
             <optgroup label="Popular Clients">
                 <option value="Resent" data-path="resent.html">Resent Client</option>
                 <option value="Shadow" data-path="shadow.html">Shadow Client</option>
+                <option value="Precision" data-path="precision.html">Precision Client</option>
             </optgroup>
         </select>
         
@@ -111,6 +115,7 @@
             <span class="path-label">./1.8.8.html</span>
             <span class="path-label">./1.7.10.html</span>
             <span class="path-label">./1.5.2.html</span>
+            <span class="path-label">./1.4.6.html</span>
             <span class="path-label">./resent.html</span>
         </div>
     </div>
@@ -155,10 +160,12 @@
     </div>
 </div>
 
-<div class="footer">made by zaka13</div>
+<div class="footer">
+    <div class="author">made by zaka13</div>
+    <div class="credits">Credits: Peyton, Lax1dude, and others!</div>
+</div>
 
 <script>
-    // SPARKS
     function createSparks() {
         for (let i = 0; i < 30; i++) {
             const spark = document.createElement('div');
@@ -171,7 +178,6 @@
     }
     createSparks();
 
-    // DOWNLOAD
     function dlClient() {
         const sel = document.getElementById('clientSelect');
         const opt = sel.options[sel.selectedIndex];
@@ -179,12 +185,11 @@
         triggerDownload(path, path);
     }
 
-    // REDIRECT (PLAY ON SITE)
     function playOnSite() {
         const sel = document.getElementById('clientSelect');
         const opt = sel.options[sel.selectedIndex];
         const path = opt.getAttribute('data-path');
-        window.location.href = path; // Opens the local path in the browser
+        window.location.href = path;
     }
 
     function triggerDownload(path, fileName) {
@@ -199,6 +204,10 @@
 
 </body>
 </html>
+
+        
+
+
 
 
     
