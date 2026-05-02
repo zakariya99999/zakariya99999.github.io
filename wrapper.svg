@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 600">
+  <!-- Use foreignObject to embed XHTML/HTML content -->
+  <foreignObject width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml" style="margin:0; padding:0; overflow:hidden;">
+      <iframe 
+        src="index.html" 
+        style="width:100%; height:100vh; border:none;"
+        frameborder="0"
+        scrolling="no">
+      </iframe>
+    </body>
+  </foreignObject>
+</svg>
